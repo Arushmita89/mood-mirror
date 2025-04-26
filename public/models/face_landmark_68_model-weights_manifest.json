@@ -1,0 +1,52 @@
+
+{
+  "weightsManifest": [
+    {
+      "paths": [
+        "face_landmark_68_model-shard1"
+      ],
+      "weights": [
+        {
+          "name": "dense0/conv0/filters",
+          "shape": [3, 3, 3, 32],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense0/conv0/bias",
+          "shape": [32],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense1/conv0/depthwise_filter",
+          "shape": [3, 3, 32, 1],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense1/conv0/pointwise_filter",
+          "shape": [1, 1, 32, 64],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense1/conv0/bias",
+          "shape": [64],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense2/conv0/depthwise_filter",
+          "shape": [3, 3, 64, 1],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense2/conv0/pointwise_filter",
+          "shape": [1, 1, 64, 128],
+          "dtype": "float32"
+        },
+        {
+          "name": "dense2/conv0/bias",
+          "shape": [128],
+          "dtype": "float32"
+        }
+      ]
+    }
+  ]
+}
